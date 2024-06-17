@@ -12,7 +12,7 @@ import static selectors.UserSelector.*;
 
 public class Main {
     public static void main(String... args){
-        List<Animal> animals = new ArrayList();
+        List<Animal> animals = new ArrayList<>();
 
         Scanner scanner = new Scanner(System.in);
 
