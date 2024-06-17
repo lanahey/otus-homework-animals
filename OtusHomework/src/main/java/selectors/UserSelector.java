@@ -50,8 +50,7 @@ public abstract class UserSelector {
                 }
             }
             if (!isExist){
-                String stopFactor = "EXIT";
-                if (animalStr.equalsIgnoreCase(stopFactor)) {
+                if (animalStr.equalsIgnoreCase("EXIT")) {
                     System.out.println("До новых встреч!");
                     System.exit(0);
                 } else {
@@ -85,8 +84,7 @@ public abstract class UserSelector {
                 }
             }
             if (!isColorExist) {
-                String stopFactor = "EXIT";
-                if (colorInputStr.equalsIgnoreCase(stopFactor)) {
+                if (colorInputStr.equalsIgnoreCase("EXIT")) {
                     System.out.println("До новых встреч!");
                     System.exit(0);
                 } else {
